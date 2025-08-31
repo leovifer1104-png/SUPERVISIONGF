@@ -37,4 +37,5 @@ if uploaded_files:
     st.dataframe(df)
 
     csv = df.to_csv(index=False).encode("utf-8")
-    st.download_button("⬇️ Descargar CSV", csv, "supervision_gf.csv", "text/csv"
+    st.download_button("⬇️ Descargar CSV", csv, "supervision_gf.csv", "text/csv")
+
